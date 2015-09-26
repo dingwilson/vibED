@@ -1,25 +1,115 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B17c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Afn-2Q-sI8">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Light-->
+        <scene sceneID="XXU-A5-L8L">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3WC-ZT-IuS" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="k84-IU-qXP"/>
+                        <viewControllerLayoutGuide type="bottom" id="H9H-aJ-GUr"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="9rV-TN-BnY">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Light" image="Light" id="Hbd-eh-kVa"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dZO-Ei-lAv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="409" y="878"/>
+        </scene>
+        <!--Noise-->
+        <scene sceneID="EHR-Q3-0qk">
+            <objects>
+                <viewController id="B0j-uA-Dvb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HiH-Ac-TQH"/>
+                        <viewControllerLayoutGuide type="bottom" id="kTE-Re-7X3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dfW-zK-aYW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Noise" image="Noise" id="lm5-WD-gc0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3uZ-gh-L3i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="408" y="1573"/>
+        </scene>
+        <!--Heat-->
+        <scene sceneID="kC2-YO-Nyu">
+            <objects>
+                <viewController id="xQf-KM-XPx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fSv-QP-yX2"/>
+                        <viewControllerLayoutGuide type="bottom" id="8W6-15-12f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wyf-7h-CqS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Heat" image="Heat" id="5eF-Tj-iKM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mu7-FS-7N0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="409" y="2256"/>
+        </scene>
+        <!--Vibe-->
+        <scene sceneID="FMM-wf-cKG">
+            <objects>
+                <viewController id="yE9-qX-Ejn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eDk-TC-JsL"/>
+                        <viewControllerLayoutGuide type="bottom" id="0T3-LX-rm7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xVY-4z-s36">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Vibe" image="Vibe" id="mcE-8O-0Lu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X2T-sY-qxt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="408" y="217"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="vgz-WV-66r">
+            <objects>
+                <tabBarController id="Afn-2Q-sI8" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="UMg-Or-chj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="yE9-qX-Ejn" kind="relationship" relationship="viewControllers" id="lAn-Qc-4So"/>
+                        <segue destination="3WC-ZT-IuS" kind="relationship" relationship="viewControllers" id="yoy-OI-H0L"/>
+                        <segue destination="B0j-uA-Dvb" kind="relationship" relationship="viewControllers" id="MJg-xf-tac"/>
+                        <segue destination="xQf-KM-XPx" kind="relationship" relationship="viewControllers" id="6MO-6Q-Q1Y"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="seh-dx-bgV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-510" y="750"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Heat" width="24" height="24"/>
+        <image name="Light" width="24" height="24"/>
+        <image name="Noise" width="24" height="24"/>
+        <image name="Vibe" width="24" height="24"/>
+    </resources>
 </document>
