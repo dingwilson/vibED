@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8C73BFA1BB72E8500958534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C73BF91BB72E8500958534 /* AppDelegate.swift */; };
+		C8C73BFC1BB72E8500958534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C73BFB1BB72E8500958534 /* ViewController.swift */; };
+		C8C73BFF1BB72E8500958534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C73BFD1BB72E8500958534 /* Main.storyboard */; };
+		C8C73C011BB72E8500958534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C73C001BB72E8500958534 /* Assets.xcassets */; };
+		C8C73C041BB72E8500958534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C73C021BB72E8500958534 /* LaunchScreen.storyboard */; };
+		C8C73C0F1BB72E8500958534 /* vibEDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C73C0E1BB72E8500958534 /* vibEDTests.swift */; };
+		C8C73C1A1BB72E8500958534 /* vibEDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C73C191BB72E8500958534 /* vibEDUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8C73C0B1BB72E8500958534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8C73BEE1BB72E8500958534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8C73BF51BB72E8500958534;
+			remoteInfo = vibED;
+		};
+		C8C73C161BB72E8500958534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8C73BEE1BB72E8500958534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8C73BF51BB72E8500958534;
+			remoteInfo = vibED;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8C73BF61BB72E8500958534 /* vibED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vibED.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C73BF91BB72E8500958534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8C73BFB1BB72E8500958534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8C73BFE1BB72E8500958534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8C73C001BB72E8500958534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8C73C031BB72E8500958534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8C73C051BB72E8500958534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C73C0A1BB72E8500958534 /* vibEDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vibEDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C73C0E1BB72E8500958534 /* vibEDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vibEDTests.swift; sourceTree = "<group>"; };
+		C8C73C101BB72E8500958534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8C73C151BB72E8500958534 /* vibEDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vibEDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C73C191BB72E8500958534 /* vibEDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vibEDUITests.swift; sourceTree = "<group>"; };
+		C8C73C1B1BB72E8500958534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8C73BF31BB72E8500958534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C73C071BB72E8500958534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C73C121BB72E8500958534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8C73BED1BB72E8500958534 = {
+			isa = PBXGroup;
+			children = (
+				C8C73BF81BB72E8500958534 /* vibED */,
+				C8C73C0D1BB72E8500958534 /* vibEDTests */,
+				C8C73C181BB72E8500958534 /* vibEDUITests */,
+				C8C73BF71BB72E8500958534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8C73BF71BB72E8500958534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8C73BF61BB72E8500958534 /* vibED.app */,
+				C8C73C0A1BB72E8500958534 /* vibEDTests.xctest */,
+				C8C73C151BB72E8500958534 /* vibEDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8C73BF81BB72E8500958534 /* vibED */ = {
+			isa = PBXGroup;
+			children = (
+				C8C73BF91BB72E8500958534 /* AppDelegate.swift */,
+				C8C73BFB1BB72E8500958534 /* ViewController.swift */,
+				C8C73BFD1BB72E8500958534 /* Main.storyboard */,
+				C8C73C001BB72E8500958534 /* Assets.xcassets */,
+				C8C73C021BB72E8500958534 /* LaunchScreen.storyboard */,
+				C8C73C051BB72E8500958534 /* Info.plist */,
+			);
+			path = vibED;
+			sourceTree = "<group>";
+		};
+		C8C73C0D1BB72E8500958534 /* vibEDTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8C73C0E1BB72E8500958534 /* vibEDTests.swift */,
+				C8C73C101BB72E8500958534 /* Info.plist */,
+			);
+			path = vibEDTests;
+			sourceTree = "<group>";
+		};
+		C8C73C181BB72E8500958534 /* vibEDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8C73C191BB72E8500958534 /* vibEDUITests.swift */,
+				C8C73C1B1BB72E8500958534 /* Info.plist */,
+			);
+			path = vibEDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8C73BF51BB72E8500958534 /* vibED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C73C1E1BB72E8500958534 /* Build configuration list for PBXNativeTarget "vibED" */;
+			buildPhases = (
+				C8C73BF21BB72E8500958534 /* Sources */,
+				C8C73BF31BB72E8500958534 /* Frameworks */,
+				C8C73BF41BB72E8500958534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vibED;
+			productName = vibED;
+			productReference = C8C73BF61BB72E8500958534 /* vibED.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8C73C091BB72E8500958534 /* vibEDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C73C211BB72E8500958534 /* Build configuration list for PBXNativeTarget "vibEDTests" */;
+			buildPhases = (
+				C8C73C061BB72E8500958534 /* Sources */,
+				C8C73C071BB72E8500958534 /* Frameworks */,
+				C8C73C081BB72E8500958534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8C73C0C1BB72E8500958534 /* PBXTargetDependency */,
+			);
+			name = vibEDTests;
+			productName = vibEDTests;
+			productReference = C8C73C0A1BB72E8500958534 /* vibEDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8C73C141BB72E8500958534 /* vibEDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C73C241BB72E8500958534 /* Build configuration list for PBXNativeTarget "vibEDUITests" */;
+			buildPhases = (
+				C8C73C111BB72E8500958534 /* Sources */,
+				C8C73C121BB72E8500958534 /* Frameworks */,
+				C8C73C131BB72E8500958534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8C73C171BB72E8500958534 /* PBXTargetDependency */,
+			);
+			name = vibEDUITests;
+			productName = vibEDUITests;
+			productReference = C8C73C151BB72E8500958534 /* vibEDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8C73BEE1BB72E8500958534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Wilson Ding";
+				TargetAttributes = {
+					C8C73BF51BB72E8500958534 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C8C73C091BB72E8500958534 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C8C73BF51BB72E8500958534;
+					};
+					C8C73C141BB72E8500958534 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C8C73BF51BB72E8500958534;
+					};
+				};
+			};
+			buildConfigurationList = C8C73BF11BB72E8500958534 /* Build configuration list for PBXProject "vibED" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8C73BED1BB72E8500958534;
+			productRefGroup = C8C73BF71BB72E8500958534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8C73BF51BB72E8500958534 /* vibED */,
+				C8C73C091BB72E8500958534 /* vibEDTests */,
+				C8C73C141BB72E8500958534 /* vibEDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8C73BF41BB72E8500958534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C73C041BB72E8500958534 /* LaunchScreen.storyboard in Resources */,
+				C8C73C011BB72E8500958534 /* Assets.xcassets in Resources */,
+				C8C73BFF1BB72E8500958534 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C73C081BB72E8500958534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C73C131BB72E8500958534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8C73BF21BB72E8500958534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C73BFC1BB72E8500958534 /* ViewController.swift in Sources */,
+				C8C73BFA1BB72E8500958534 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C73C061BB72E8500958534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C73C0F1BB72E8500958534 /* vibEDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C73C111BB72E8500958534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C73C1A1BB72E8500958534 /* vibEDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8C73C0C1BB72E8500958534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8C73BF51BB72E8500958534 /* vibED */;
+			targetProxy = C8C73C0B1BB72E8500958534 /* PBXContainerItemProxy */;
+		};
+		C8C73C171BB72E8500958534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8C73BF51BB72E8500958534 /* vibED */;
+			targetProxy = C8C73C161BB72E8500958534 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8C73BFD1BB72E8500958534 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8C73BFE1BB72E8500958534 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8C73C021BB72E8500958534 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8C73C031BB72E8500958534 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8C73C1C1BB72E8500958534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8C73C1D1BB72E8500958534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8C73C1F1BB72E8500958534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vibED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.vibED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8C73C201BB72E8500958534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vibED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.vibED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C8C73C221BB72E8500958534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = vibEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.vibEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vibED.app/vibED";
+			};
+			name = Debug;
+		};
+		C8C73C231BB72E8500958534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = vibEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.vibEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vibED.app/vibED";
+			};
+			name = Release;
+		};
+		C8C73C251BB72E8500958534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vibEDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.vibEDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vibED;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C8C73C261BB72E8500958534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vibEDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.vibEDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vibED;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8C73BF11BB72E8500958534 /* Build configuration list for PBXProject "vibED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C73C1C1BB72E8500958534 /* Debug */,
+				C8C73C1D1BB72E8500958534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C73C1E1BB72E8500958534 /* Build configuration list for PBXNativeTarget "vibED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C73C1F1BB72E8500958534 /* Debug */,
+				C8C73C201BB72E8500958534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8C73C211BB72E8500958534 /* Build configuration list for PBXNativeTarget "vibEDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C73C221BB72E8500958534 /* Debug */,
+				C8C73C231BB72E8500958534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8C73C241BB72E8500958534 /* Build configuration list for PBXNativeTarget "vibEDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C73C251BB72E8500958534 /* Debug */,
+				C8C73C261BB72E8500958534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8C73BEE1BB72E8500958534 /* Project object */;
+}
