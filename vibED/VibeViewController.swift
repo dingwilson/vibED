@@ -9,10 +9,29 @@
 import UIKit
 
 class VibeViewController: UIViewController {
+    
+    var goodStatusMessages = ["Helllll yeah!",
+                              "Lookin' Good",
+                              "Doin' Fine",
+                              ":D"]
+    
+    var neutralSTatusMessages = ["We could be doing better",
+                                 "Meh",
+                                 "Not great, but not terrible either..."]
+    
+    var badStatusMessages = ["Oops",
+                             "I'm sorry...",
+                             ":(",
+                             "Running through the 6 with my woes"]
 
+    @IBOutlet weak var statusMessageLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let randomIndex = Int(arc4random_uniform(UInt32(goodStatusMessages.count)))
+        statusMessageLabel.text = goodStatusMessages[randomIndex]
+        
         // Do any additional setup after loading the view.
     }
 

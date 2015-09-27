@@ -233,6 +233,7 @@
 				TargetAttributes = {
 					C8C73BF51BB72E8500958534 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = EP43PHQP2A;
 					};
 					C8C73C091BB72E8500958534 = {
 						CreatedOnToolsVersion = 7.0;
@@ -492,10 +493,13 @@
 			baseConfigurationReference = 3DC81581CF9F2D2DCFDBDAEF /* Pods-vibED.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = vibED/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.vibED;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -504,10 +508,13 @@
 			baseConfigurationReference = FA6F70C48248834BB531568D /* Pods-vibED.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = vibED/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.vibED;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
