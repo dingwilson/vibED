@@ -52,8 +52,12 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'Pods-vibED/Bolts.framework'
   install_framework 'Pods-vibED/Charts.framework'
+  install_framework 'Pods-vibED/Parse.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'Pods-vibED/Bolts.framework'
   install_framework 'Pods-vibED/Charts.framework'
+  install_framework 'Pods-vibED/Parse.framework'
 fi

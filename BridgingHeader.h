@@ -6,4 +6,5 @@
 //  Copyright © 2015 Wilson Ding. All rights reserved.
 //
 
-#import <Firebase/Firebase.h>
+@import Parse;
+#import Charts

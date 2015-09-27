@@ -21,7 +21,17 @@ class VibeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func lightButtonPushed(sender: AnyObject) {
+        tabBarController?.selectedIndex = 1
+    }
 
+    @IBAction func noiseButtonPushed(sender: AnyObject) {
+        tabBarController?.selectedIndex = 2
+    }
+    
+    @IBAction func heatButtonPushed(sender: AnyObject) {
+        tabBarController?.selectedIndex = 3
+    }
     /*
     // MARK: - Navigation
 
