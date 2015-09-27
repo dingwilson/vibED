@@ -66,10 +66,40 @@
                     <view key="view" contentMode="scaleToFill" id="dfW-zK-aYW">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XkI-zb-Rao" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="20" y="141" width="560" height="402"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gb1-JR-iny">
+                                <rect key="frame" x="256" y="43" width="89" height="84"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="89" id="XAf-C4-xz2"/>
+                                    <constraint firstAttribute="height" constant="84" id="vtB-7g-BgM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XkI-zb-Rao" firstAttribute="centerX" secondItem="gb1-JR-iny" secondAttribute="centerX" id="07t-Oh-rXt"/>
+                            <constraint firstItem="XkI-zb-Rao" firstAttribute="top" secondItem="gb1-JR-iny" secondAttribute="bottom" constant="14" id="Cze-br-okK"/>
+                            <constraint firstItem="XkI-zb-Rao" firstAttribute="trailing" secondItem="dfW-zK-aYW" secondAttribute="trailingMargin" id="IaK-bp-wA9"/>
+                            <constraint firstItem="gb1-JR-iny" firstAttribute="top" secondItem="HiH-Ac-TQH" secondAttribute="bottom" constant="23" id="KMv-bb-Mml"/>
+                            <constraint firstItem="XkI-zb-Rao" firstAttribute="leading" secondItem="dfW-zK-aYW" secondAttribute="leadingMargin" id="si0-zz-S7a"/>
+                            <constraint firstItem="kTE-Re-7X3" firstAttribute="top" secondItem="XkI-zb-Rao" secondAttribute="bottom" constant="8" symbolic="YES" id="yuM-rv-qSv"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Noise" image="Noise" id="lm5-WD-gc0"/>
+                    <connections>
+                        <outlet property="lineChartView" destination="XkI-zb-Rao" id="aTJ-g5-QqH"/>
+                        <outlet property="statusMessageLabel" destination="gb1-JR-iny" id="Pc6-Og-vSH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3uZ-gh-L3i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -86,10 +116,40 @@
                     <view key="view" contentMode="scaleToFill" id="wyf-7h-CqS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F1J-lU-A3u" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="20" y="141" width="560" height="402"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyH-AW-jsM">
+                                <rect key="frame" x="256" y="43" width="89" height="84"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="89" id="L88-i8-KF3"/>
+                                    <constraint firstAttribute="height" constant="84" id="WZT-Y8-IAt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F1J-lU-A3u" firstAttribute="leading" secondItem="wyf-7h-CqS" secondAttribute="leadingMargin" id="9BK-TZ-iIQ"/>
+                            <constraint firstItem="F1J-lU-A3u" firstAttribute="trailing" secondItem="wyf-7h-CqS" secondAttribute="trailingMargin" id="HTx-uL-gbx"/>
+                            <constraint firstItem="MyH-AW-jsM" firstAttribute="top" secondItem="fSv-QP-yX2" secondAttribute="bottom" constant="23" id="WWN-OQ-L6y"/>
+                            <constraint firstItem="MyH-AW-jsM" firstAttribute="centerX" secondItem="F1J-lU-A3u" secondAttribute="centerX" id="iyt-Dr-Ibz"/>
+                            <constraint firstItem="F1J-lU-A3u" firstAttribute="top" secondItem="MyH-AW-jsM" secondAttribute="bottom" constant="14" id="owE-2V-enw"/>
+                            <constraint firstItem="8W6-15-12f" firstAttribute="top" secondItem="F1J-lU-A3u" secondAttribute="bottom" constant="8" symbolic="YES" id="p8G-e3-usa"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Heat" image="Heat" id="5eF-Tj-iKM"/>
+                    <connections>
+                        <outlet property="lineChartView" destination="F1J-lU-A3u" id="f3a-qH-p21"/>
+                        <outlet property="statusMessageLabel" destination="MyH-AW-jsM" id="10c-7U-XCq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mu7-FS-7N0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

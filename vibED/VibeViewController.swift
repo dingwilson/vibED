@@ -24,7 +24,7 @@ class VibeViewController: UIViewController {
                               "Doin' Fine",
                               ":D"]
     
-    var neutralSTatusMessages = ["We could be doing better",
+    var neutralStatusMessages = ["We could be doing better",
                                  "Meh",
                                  "Not great, but not terrible either..."]
     
@@ -148,6 +148,53 @@ class VibeViewController: UIViewController {
     
     func refreshValues () {
         
+        
+        if isLightGood {
+            lightLabel.textColor = UIColor.greenColor()
+        }
+            
+        else {
+            lightLabel.textColor = UIColor.redColor()
+        }
+        
+        if isNoiseGood {
+            noiseLabel.textColor = UIColor.greenColor()
+        }
+            
+        else {
+            noiseLabel.textColor = UIColor.redColor()
+        }
+        
+        if isHeatGood == "green"{
+            heatLabel.textColor = UIColor.greenColor()
+        }
+            
+        else if isHeatGood == "yellow"{
+            heatLabel.textColor = UIColor.yellowColor()
+        }
+            
+        else {
+            heatLabel.textColor = UIColor.redColor()
+        }
+        
+        if (isHeatGood == "green") && (isLightGood) && (isNoiseGood) {
+            statusMessageLabel.textColor = UIColor.greenColor()
+            let randomIndex = Int(arc4random_uniform(UInt32(goodStatusMessages.count)))
+            statusMessageLabel.text = goodStatusMessages[randomIndex]
+        }
+            
+        else if (isHeatGood == "yellow") && (isLightGood) && (isNoiseGood) {
+            statusMessageLabel.textColor = UIColor.yellowColor()
+            let randomIndex = Int(arc4random_uniform(UInt32(neutralStatusMessages.count)))
+            statusMessageLabel.text = neutralStatusMessages[randomIndex]
+        }
+            
+        else {
+            statusMessageLabel.textColor = UIColor.redColor()
+            let randomIndex = Int(arc4random_uniform(UInt32(badStatusMessages.count)))
+            statusMessageLabel.text = badStatusMessages[randomIndex]
+        }
+        
         if(!lightArray.isEmpty) {
             lightButton.setTitle("\(lightArray[lightArray.count-1].value())", forState: UIControlState.Normal)
         }
@@ -169,49 +216,6 @@ class VibeViewController: UIViewController {
         let formattedDate = formatter.stringFromDate(date);
         
         lastUpdatedLabel.text = "Last Updated: \(formattedDate)"
-        
-        if isLightGood {
-            lightLabel.textColor = UIColor.greenColor()
-        }
-        
-        else {
-            lightLabel.textColor = UIColor.redColor()
-        }
-        
-        if isNoiseGood {
-            noiseLabel.textColor = UIColor.greenColor()
-        }
-            
-        else {
-            noiseLabel.textColor = UIColor.redColor()
-        }
-        
-        if isHeatGood == "green"{
-            heatLabel.textColor = UIColor.greenColor()
-        }
-            
-        else if isHeatGood == "yellow"{
-            heatLabel.textColor = UIColor.yellowColor()
-        }
-        
-        else {
-            heatLabel.textColor = UIColor.redColor()
-        }
-        
-        if (isHeatGood == "green") && (isLightGood) && (isNoiseGood) {
-            statusMessageLabel.textColor = UIColor.greenColor()
-        }
-        
-        else if (isHeatGood == "yellow") && (isLightGood) && (isNoiseGood) {
-            statusMessageLabel.textColor = UIColor.yellowColor()
-        }
-        
-        else {
-            statusMessageLabel.textColor = UIColor.redColor()
-        }
-        
-        let randomIndex = Int(arc4random_uniform(UInt32(goodStatusMessages.count)))
-        statusMessageLabel.text = goodStatusMessages[randomIndex]
     }
     
     /*

@@ -51,9 +51,55 @@ class LightViewController: UIViewController {
     
     func refreshValues () {
         
+        var n = 0
+        
         if(!lightArray.isEmpty) {
             statusMessageLabel.text = "\(lightArray[lightArray.count-1].value())"
         }
+        
+        if Int(statusMessageLabel.text!) < 5 {
+            statusMessageLabel.textColor = UIColor.redColor()
+        }
+            
+        else {
+            statusMessageLabel.textColor = UIColor.greenColor()
+        }
+        
+        if(lightArray.count > 10) {
+            n = 10
+        }
+
+        else {
+            n = lightArray.count
+        }
+        
+        if(!lightArray.isEmpty) {
+            let recentArray = lightArray[(lightArray.count-n)..<lightArray.count]
+        
+            var recentDate : [String] = []
+            var recentValue : [Double] = []
+        
+            for eachFirebaseObject in recentArray {
+                recentDate.append("\(eachFirebaseObject.date())")
+                recentValue.append(Double(eachFirebaseObject.value()))
+            }
+        
+            setChart(recentDate, values: recentValue)
+        }
+    }
+    
+    func setChart(dataPoints: [String], values: [Double]) {
+        
+        var dataEntries: [ChartDataEntry] = []
+        
+        for i in 0..<dataPoints.count {
+            let dataEntry = ChartDataEntry(value: values[i], xIndex: i)
+            dataEntries.append(dataEntry)
+        }
+
+        let lineChartDataSet = LineChartDataSet(yVals: dataEntries, label: "Light")
+        let lineChartData = LineChartData(xVals: dataPoints, dataSet: lineChartDataSet)
+        lineChartView.data = lineChartData
     }
 
     /*
