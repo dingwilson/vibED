@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A610451BF6F5EE75219BCA52 /* Pods_vibED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3D33338A964A6F221AA658 /* Pods_vibED.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C8C73BFA1BB72E8500958534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C73BF91BB72E8500958534 /* AppDelegate.swift */; };
 		C8C73BFC1BB72E8500958534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C73BFB1BB72E8500958534 /* ViewController.swift */; };
 		C8C73BFF1BB72E8500958534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C73BFD1BB72E8500958534 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		C8C73C0F1BB72E8500958534 /* vibEDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C73C0E1BB72E8500958534 /* vibEDTests.swift */; };
 		C8C73C1A1BB72E8500958534 /* vibEDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C73C191BB72E8500958534 /* vibEDUITests.swift */; };
 		C8CEEF8D1BB734E600743DF5 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEEF8C1BB734E600743DF5 /* MainTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
-		E7287EF801A4A3D667EC7D68 /* libPods-vibED.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB152275F0A5865FDA6A87A4 /* libPods-vibED.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A3D33338A964A6F221AA658 /* Pods_vibED.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vibED.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC81581CF9F2D2DCFDBDAEF /* Pods-vibED.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibED.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vibED/Pods-vibED.debug.xcconfig"; sourceTree = "<group>"; };
 		C8C73BF61BB72E8500958534 /* vibED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vibED.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C73BF91BB72E8500958534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		C8C73C1B1BB72E8500958534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8C73C271BB733D300958534 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BridgingHeader.h; path = ../BridgingHeader.h; sourceTree = "<group>"; };
 		C8CEEF8C1BB734E600743DF5 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		DB152275F0A5865FDA6A87A4 /* libPods-vibED.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vibED.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6F70C48248834BB531568D /* Pods-vibED.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibED.release.xcconfig"; path = "Pods/Target Support Files/Pods-vibED/Pods-vibED.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7287EF801A4A3D667EC7D68 /* libPods-vibED.a in Frameworks */,
+				A610451BF6F5EE75219BCA52 /* Pods_vibED.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +140,7 @@
 		EAA3E341372517F3662D838D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DB152275F0A5865FDA6A87A4 /* libPods-vibED.a */,
+				3A3D33338A964A6F221AA658 /* Pods_vibED.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,6 +166,7 @@
 				C8C73BF31BB72E8500958534 /* Frameworks */,
 				C8C73BF41BB72E8500958534 /* Resources */,
 				ECFA8411C35334287C49FFD3 /* Copy Pods Resources */,
+				AE29A2DD47B336A1D02371ED /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,6 +296,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE29A2DD47B336A1D02371ED /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vibED/Pods-vibED-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ECFA8411C35334287C49FFD3 /* Copy Pods Resources */ = {
