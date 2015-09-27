@@ -6,5 +6,4 @@
 //  Copyright © 2015 Wilson Ding. All rights reserved.
 //
 
-@import Parse;
 #import Charts
