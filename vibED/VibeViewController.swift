@@ -25,12 +25,28 @@ class VibeViewController: UIViewController {
                              "Running through the 6 with my woes"]
 
     @IBOutlet weak var statusMessageLabel: UILabel!
+    @IBOutlet weak var lightLabel: UILabel!
+    @IBOutlet weak var noiseLabel: UILabel!
+    @IBOutlet weak var heatLabel: UILabel!
+    
+    @IBOutlet weak var lastUpdatedLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let randomIndex = Int(arc4random_uniform(UInt32(goodStatusMessages.count)))
         statusMessageLabel.text = goodStatusMessages[randomIndex]
+        
+        //Set Date
+        let date = NSDate();
+        
+        let formatter = NSDateFormatter();
+        formatter.dateFormat = "MM/dd/yyyy hh:mm a";
+        formatter.timeZone = NSTimeZone.localTimeZone();
+        
+        let formattedDate = formatter.stringFromDate(date);
+        
+        lastUpdatedLabel.text = "Last Updated: \(formattedDate)"
         
         // Do any additional setup after loading the view.
     }

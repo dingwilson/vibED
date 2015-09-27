@@ -184,6 +184,10 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Vibe" image="Vibe" id="mcE-8O-0Lu"/>
                     <connections>
+                        <outlet property="heatLabel" destination="sFq-jK-b0g" id="U9L-bD-6tV"/>
+                        <outlet property="lastUpdatedLabel" destination="bEN-5Y-cbp" id="Vhk-2U-HRb"/>
+                        <outlet property="lightLabel" destination="8k2-3d-4aw" id="IEm-lz-HQe"/>
+                        <outlet property="noiseLabel" destination="zSh-Lb-rop" id="4wQ-7i-JjF"/>
                         <outlet property="statusMessageLabel" destination="miG-68-PBH" id="zgb-Nh-uuQ"/>
                     </connections>
                 </viewController>
