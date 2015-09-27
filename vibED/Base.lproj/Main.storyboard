@@ -7,7 +7,7 @@
         <!--Light-->
         <scene sceneID="XXU-A5-L8L">
             <objects>
-                <viewController id="3WC-ZT-IuS" sceneMemberID="viewController">
+                <viewController id="3WC-ZT-IuS" customClass="LightViewController" customModule="vibED" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k84-IU-qXP"/>
                         <viewControllerLayoutGuide type="bottom" id="H9H-aJ-GUr"/>
@@ -27,7 +27,7 @@
         <!--Noise-->
         <scene sceneID="EHR-Q3-0qk">
             <objects>
-                <viewController id="B0j-uA-Dvb" sceneMemberID="viewController">
+                <viewController id="B0j-uA-Dvb" customClass="NoiseViewController" customModule="vibED" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HiH-Ac-TQH"/>
                         <viewControllerLayoutGuide type="bottom" id="kTE-Re-7X3"/>
@@ -47,7 +47,7 @@
         <!--Heat-->
         <scene sceneID="kC2-YO-Nyu">
             <objects>
-                <viewController id="xQf-KM-XPx" sceneMemberID="viewController">
+                <viewController id="xQf-KM-XPx" customClass="HeatViewController" customModule="vibED" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fSv-QP-yX2"/>
                         <viewControllerLayoutGuide type="bottom" id="8W6-15-12f"/>
@@ -67,7 +67,7 @@
         <!--Vibe-->
         <scene sceneID="FMM-wf-cKG">
             <objects>
-                <viewController id="yE9-qX-Ejn" sceneMemberID="viewController">
+                <viewController id="yE9-qX-Ejn" customClass="VibeViewController" customModule="vibED" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eDk-TC-JsL"/>
                         <viewControllerLayoutGuide type="bottom" id="0T3-LX-rm7"/>
