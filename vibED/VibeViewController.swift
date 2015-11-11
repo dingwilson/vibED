@@ -19,19 +19,22 @@ class VibeViewController: UIViewController {
     var noiseArray : [FirebaseObject] = []
     var heatArray : [FirebaseObject] = []
     
-    var goodStatusMessages = ["Helllll yeah!",
+    var goodStatusMessages = ["Awesome!",
                               "Lookin' Good",
                               "Doin' Fine",
                               ":D"]
     
-    var neutralStatusMessages = ["We could be doing better",
+    var neutralStatusMessages = ["Could be better",
                                  "Meh",
-                                 "Not great, but not terrible either..."]
+                                 "Average",
+                                 "So-So",
+                                 ":|"]
     
     var badStatusMessages = ["Oops",
                              "I'm sorry...",
                              ":(",
-                             "Running through the 6 with my woes"]
+                             "Bad",
+                             "Bleh"]
 
     @IBOutlet weak var statusMessageLabel: UILabel!
     
