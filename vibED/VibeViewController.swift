@@ -38,9 +38,9 @@ class VibeViewController: UIViewController {
 
     @IBOutlet weak var statusMessageLabel: UILabel!
     
-    @IBOutlet weak var lightLabel: UILabel!
-    @IBOutlet weak var noiseLabel: UILabel!
-    @IBOutlet weak var heatLabel: UILabel!
+    @IBOutlet weak var lightLabel: UIButton!
+    @IBOutlet weak var noiseLabel: UIButton!
+    @IBOutlet weak var heatLabel: UIButton!
     
     @IBOutlet weak var lightButton: UIButton!
     @IBOutlet weak var noiseButton: UIButton!
@@ -153,31 +153,31 @@ class VibeViewController: UIViewController {
         
         
         if isLightGood {
-            lightLabel.textColor = UIColor.greenColor()
+            lightLabel.titleLabel!.textColor = UIColor.greenColor()
         }
             
         else {
-            lightLabel.textColor = UIColor.redColor()
+            lightLabel.titleLabel!.textColor = UIColor.redColor()
         }
         
         if isNoiseGood {
-            noiseLabel.textColor = UIColor.greenColor()
+            noiseLabel.titleLabel!.textColor = UIColor.greenColor()
         }
             
         else {
-            noiseLabel.textColor = UIColor.redColor()
+            noiseLabel.titleLabel!.textColor = UIColor.redColor()
         }
         
         if isHeatGood == "green"{
-            heatLabel.textColor = UIColor.greenColor()
+            heatLabel.titleLabel!.textColor = UIColor.greenColor()
         }
             
         else if isHeatGood == "yellow"{
-            heatLabel.textColor = UIColor.yellowColor()
+            heatLabel.titleLabel!.textColor = UIColor.yellowColor()
         }
             
         else {
-            heatLabel.textColor = UIColor.redColor()
+            heatLabel.titleLabel!.textColor = UIColor.redColor()
         }
         
         if (isHeatGood == "green") && (isLightGood) && (isNoiseGood) {

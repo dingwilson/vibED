@@ -175,45 +175,36 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BD2-2h-ktM">
-                                <rect key="frame" x="501" y="223" width="79" height="30"/>
+                                <rect key="frame" x="450" y="223" width="130" height="30"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="EPg-DL-qsD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Go To Light"/>
                                 <connections>
                                     <action selector="lightButtonPushed:" destination="yE9-qX-Ejn" eventType="touchUpInside" id="hJv-er-mdT"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Light" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8k2-3d-4aw">
-                                <rect key="frame" x="20" y="222" width="152" height="34"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="152" id="KLh-uw-lqq"/>
-                                    <constraint firstAttribute="height" constant="34" id="bV8-SW-fKc"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noise " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSh-Lb-rop">
-                                <rect key="frame" x="20" y="322" width="152" height="34"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="8q1-ZV-duq"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUf-gc-A1z">
-                                <rect key="frame" x="496" y="323" width="84" height="30"/>
+                                <rect key="frame" x="450" y="323" width="130" height="30"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4Qi-lb-yQQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Go To Noise"/>
                                 <connections>
                                     <action selector="noiseButtonPushed:" destination="yE9-qX-Ejn" eventType="touchUpInside" id="9bc-t2-VlK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n91-XV-B4n">
-                                <rect key="frame" x="503" y="419" width="77" height="30"/>
+                                <rect key="frame" x="450" y="419" width="130" height="30"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Hqp-JJ-R61"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Go To Heat"/>
                                 <connections>
                                     <action selector="heatButtonPushed:" destination="yE9-qX-Ejn" eventType="touchUpInside" id="Azy-Bt-5eC"/>
@@ -223,58 +214,83 @@
                                 <rect key="frame" x="20" y="522" width="560" height="21"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="mWe-EW-DaC"/>
+                                    <constraint firstAttribute="height" constant="21" id="SbM-KC-EbR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heat (Fahrenheit)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFq-jK-b0g">
-                                <rect key="frame" x="20" y="424" width="335" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cv6-A6-I8b">
+                                <rect key="frame" x="11" y="315" width="81" height="46"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Noise"/>
+                                <connections>
+                                    <action selector="noiseButtonPushed:" destination="yE9-qX-Ejn" eventType="touchUpInside" id="KHu-Yf-VyE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mhr-sg-R7e">
+                                <rect key="frame" x="11" y="411" width="81" height="46"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Heat"/>
+                                <connections>
+                                    <action selector="heatButtonPushed:" destination="yE9-qX-Ejn" eventType="touchUpInside" id="jY2-hh-nF9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w52-08-9V6">
+                                <rect key="frame" x="11" y="223" width="81" height="30"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="335" id="VgM-3A-TWy"/>
+                                    <constraint firstAttribute="height" constant="30" id="5Gb-tW-6g8"/>
+                                    <constraint firstAttribute="width" constant="81" id="pVo-QK-3lX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Light"/>
+                                <connections>
+                                    <action selector="lightButtonPushed:" destination="yE9-qX-Ejn" eventType="touchUpInside" id="7bd-L2-wdJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="nUf-gc-A1z" firstAttribute="top" secondItem="BD2-2h-ktM" secondAttribute="bottom" constant="70" id="0RX-nJ-5ea"/>
-                            <constraint firstItem="BD2-2h-ktM" firstAttribute="top" secondItem="miG-68-PBH" secondAttribute="bottom" constant="1" id="E5h-bh-FBm"/>
-                            <constraint firstItem="miG-68-PBH" firstAttribute="leading" secondItem="xVY-4z-s36" secondAttribute="leading" id="GXo-Eu-krn"/>
-                            <constraint firstItem="n91-XV-B4n" firstAttribute="top" secondItem="nUf-gc-A1z" secondAttribute="bottom" constant="66" id="HB9-eE-woQ"/>
-                            <constraint firstItem="miG-68-PBH" firstAttribute="top" secondItem="eDk-TC-JsL" secondAttribute="bottom" id="HBp-QP-dcr"/>
-                            <constraint firstItem="bEN-5Y-cbp" firstAttribute="top" secondItem="sFq-jK-b0g" secondAttribute="bottom" constant="64" id="OU8-Jh-Wyz"/>
-                            <constraint firstItem="8k2-3d-4aw" firstAttribute="leading" secondItem="zSh-Lb-rop" secondAttribute="leading" id="RQ3-Vu-5wf"/>
-                            <constraint firstItem="8k2-3d-4aw" firstAttribute="trailing" secondItem="zSh-Lb-rop" secondAttribute="trailing" id="UhW-uV-7xf"/>
-                            <constraint firstItem="n91-XV-B4n" firstAttribute="trailing" secondItem="bEN-5Y-cbp" secondAttribute="trailing" id="ZJ4-Tu-sTd"/>
-                            <constraint firstItem="8k2-3d-4aw" firstAttribute="top" secondItem="miG-68-PBH" secondAttribute="bottom" id="dXX-o0-Wtd"/>
-                            <constraint firstItem="bEN-5Y-cbp" firstAttribute="leading" secondItem="sFq-jK-b0g" secondAttribute="leading" id="gUN-4a-KJD"/>
-                            <constraint firstItem="sFq-jK-b0g" firstAttribute="top" secondItem="zSh-Lb-rop" secondAttribute="bottom" constant="68" id="hiH-lw-dur"/>
-                            <constraint firstAttribute="trailing" secondItem="miG-68-PBH" secondAttribute="trailing" id="i9p-Yj-7Of"/>
-                            <constraint firstItem="0T3-LX-rm7" firstAttribute="top" secondItem="bEN-5Y-cbp" secondAttribute="bottom" constant="8" symbolic="YES" id="kWp-Rm-0j4"/>
-                            <constraint firstItem="bEN-5Y-cbp" firstAttribute="top" secondItem="n91-XV-B4n" secondAttribute="bottom" constant="73" id="koB-VM-SvL"/>
-                            <constraint firstItem="8k2-3d-4aw" firstAttribute="leading" secondItem="xVY-4z-s36" secondAttribute="leadingMargin" id="mMC-2o-F8z"/>
-                            <constraint firstItem="nUf-gc-A1z" firstAttribute="trailing" secondItem="BD2-2h-ktM" secondAttribute="trailing" id="ohD-hg-j06"/>
-                            <constraint firstItem="bEN-5Y-cbp" firstAttribute="centerX" secondItem="miG-68-PBH" secondAttribute="centerX" id="uFA-8n-OaB"/>
-                            <constraint firstItem="zSh-Lb-rop" firstAttribute="top" secondItem="8k2-3d-4aw" secondAttribute="bottom" constant="66" id="xde-A2-FaE"/>
-                            <constraint firstItem="nUf-gc-A1z" firstAttribute="trailing" secondItem="n91-XV-B4n" secondAttribute="trailing" id="xmm-pi-1Xo"/>
-                            <constraint firstItem="sFq-jK-b0g" firstAttribute="leading" secondItem="zSh-Lb-rop" secondAttribute="leading" id="yIS-dy-sQG"/>
+                            <constraint firstItem="bEN-5Y-cbp" firstAttribute="leading" secondItem="xVY-4z-s36" secondAttribute="leadingMargin" id="0cT-tY-z26"/>
+                            <constraint firstItem="cv6-A6-I8b" firstAttribute="trailing" secondItem="w52-08-9V6" secondAttribute="trailing" id="319-uS-ZeP"/>
+                            <constraint firstItem="n91-XV-B4n" firstAttribute="top" secondItem="nUf-gc-A1z" secondAttribute="bottom" constant="66" id="6I8-DO-Eab"/>
+                            <constraint firstItem="w52-08-9V6" firstAttribute="bottom" secondItem="BD2-2h-ktM" secondAttribute="bottom" id="6jM-N5-yVr"/>
+                            <constraint firstItem="cv6-A6-I8b" firstAttribute="top" secondItem="w52-08-9V6" secondAttribute="bottom" constant="62" id="Ab5-NE-fm4"/>
+                            <constraint firstItem="BD2-2h-ktM" firstAttribute="top" secondItem="w52-08-9V6" secondAttribute="top" id="GGU-wa-SxP"/>
+                            <constraint firstItem="bEN-5Y-cbp" firstAttribute="trailing" secondItem="n91-XV-B4n" secondAttribute="trailing" id="GSy-E4-nNK"/>
+                            <constraint firstItem="cv6-A6-I8b" firstAttribute="leading" secondItem="Mhr-sg-R7e" secondAttribute="leading" id="KTn-aA-Y6o"/>
+                            <constraint firstItem="w52-08-9V6" firstAttribute="top" secondItem="miG-68-PBH" secondAttribute="bottom" constant="1" id="LPr-Gy-HHJ"/>
+                            <constraint firstItem="Mhr-sg-R7e" firstAttribute="trailing" secondItem="cv6-A6-I8b" secondAttribute="trailing" id="LdS-Ra-qo5"/>
+                            <constraint firstItem="Mhr-sg-R7e" firstAttribute="top" secondItem="cv6-A6-I8b" secondAttribute="bottom" constant="50" id="M9p-SR-Fo8"/>
+                            <constraint firstItem="n91-XV-B4n" firstAttribute="centerY" secondItem="Mhr-sg-R7e" secondAttribute="centerY" id="ONt-Zi-Yxg"/>
+                            <constraint firstItem="0T3-LX-rm7" firstAttribute="top" secondItem="bEN-5Y-cbp" secondAttribute="bottom" constant="8" symbolic="YES" id="PTt-V3-Pp1"/>
+                            <constraint firstItem="n91-XV-B4n" firstAttribute="trailing" secondItem="nUf-gc-A1z" secondAttribute="trailing" id="QCF-Te-sHu"/>
+                            <constraint firstItem="bEN-5Y-cbp" firstAttribute="centerX" secondItem="miG-68-PBH" secondAttribute="centerX" id="Vtm-z5-C7x"/>
+                            <constraint firstItem="nUf-gc-A1z" firstAttribute="leading" secondItem="n91-XV-B4n" secondAttribute="leading" id="csZ-Za-3lc"/>
+                            <constraint firstItem="BD2-2h-ktM" firstAttribute="leading" secondItem="nUf-gc-A1z" secondAttribute="leading" id="h3g-pD-ghi"/>
+                            <constraint firstItem="miG-68-PBH" firstAttribute="leading" secondItem="xVY-4z-s36" secondAttribute="leading" id="i6L-fB-HL4"/>
+                            <constraint firstItem="w52-08-9V6" firstAttribute="leading" secondItem="xVY-4z-s36" secondAttribute="leadingMargin" constant="-9" id="jni-tH-9eU"/>
+                            <constraint firstItem="BD2-2h-ktM" firstAttribute="trailing" secondItem="nUf-gc-A1z" secondAttribute="trailing" id="n9q-9s-xNa"/>
+                            <constraint firstItem="nUf-gc-A1z" firstAttribute="centerY" secondItem="cv6-A6-I8b" secondAttribute="centerY" id="nk7-uW-vHA"/>
+                            <constraint firstItem="miG-68-PBH" firstAttribute="top" secondItem="eDk-TC-JsL" secondAttribute="bottom" id="rRG-hc-Wrk"/>
+                            <constraint firstAttribute="trailing" secondItem="miG-68-PBH" secondAttribute="trailing" id="sq8-U2-LXT"/>
+                            <constraint firstItem="cv6-A6-I8b" firstAttribute="leading" secondItem="w52-08-9V6" secondAttribute="leading" id="yPX-4l-q1A"/>
+                            <constraint firstItem="bEN-5Y-cbp" firstAttribute="top" secondItem="Mhr-sg-R7e" secondAttribute="bottom" constant="65" id="yVE-EX-M0j"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Vibe" image="Vibe" id="mcE-8O-0Lu"/>
                     <connections>
                         <outlet property="heatButton" destination="n91-XV-B4n" id="H0u-HM-RwF"/>
-                        <outlet property="heatLabel" destination="sFq-jK-b0g" id="U9L-bD-6tV"/>
+                        <outlet property="heatLabel" destination="Mhr-sg-R7e" id="YIe-T6-x7i"/>
                         <outlet property="lastUpdatedLabel" destination="bEN-5Y-cbp" id="Vhk-2U-HRb"/>
                         <outlet property="lightButton" destination="BD2-2h-ktM" id="FGl-LA-Fun"/>
-                        <outlet property="lightLabel" destination="8k2-3d-4aw" id="IEm-lz-HQe"/>
+                        <outlet property="lightLabel" destination="w52-08-9V6" id="RjC-qv-IVm"/>
                         <outlet property="noiseButton" destination="nUf-gc-A1z" id="p9m-8P-95M"/>
-                        <outlet property="noiseLabel" destination="zSh-Lb-rop" id="4wQ-7i-JjF"/>
+                        <outlet property="noiseLabel" destination="cv6-A6-I8b" id="ZTe-zP-DTB"/>
                         <outlet property="statusMessageLabel" destination="miG-68-PBH" id="zgb-Nh-uuQ"/>
                     </connections>
                 </viewController>
