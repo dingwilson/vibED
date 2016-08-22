@@ -1,13 +1,10 @@
 PODS:
-  - Charts (2.1.4)
   - Firebase (2.4.0)
 
 DEPENDENCIES:
-  - Charts
   - Firebase
 
 SPEC CHECKSUMS:
-  Charts: 870589b6b4bf8468baacea8869c28983d71f602c
   Firebase: 0a222ced05373b8261fe06c036790a0971991f47
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

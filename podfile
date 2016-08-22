@@ -4,7 +4,6 @@ use_frameworks!
 
 target 'vibED' do
 pod 'Firebase'
-pod 'Charts'
 
 end
 

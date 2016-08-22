@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A610451BF6F5EE75219BCA52 /* Pods_vibED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3D33338A964A6F221AA658 /* Pods_vibED.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		C8233FDA1BB7F1C500C19516 /* FirebaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8233FD91BB7F1C500C19516 /* FirebaseObject.swift */; settings = {ASSET_TAGS = (); }; };
+		A610451BF6F5EE75219BCA52 /* Pods_vibED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3D33338A964A6F221AA658 /* Pods_vibED.framework */; };
+		C8233FDA1BB7F1C500C19516 /* FirebaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8233FD91BB7F1C500C19516 /* FirebaseObject.swift */; };
 		C8C73BFA1BB72E8500958534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C73BF91BB72E8500958534 /* AppDelegate.swift */; };
 		C8C73BFF1BB72E8500958534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C73BFD1BB72E8500958534 /* Main.storyboard */; };
 		C8C73C011BB72E8500958534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C73C001BB72E8500958534 /* Assets.xcassets */; };
 		C8C73C041BB72E8500958534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C73C021BB72E8500958534 /* LaunchScreen.storyboard */; };
 		C8C73C0F1BB72E8500958534 /* vibEDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C73C0E1BB72E8500958534 /* vibEDTests.swift */; };
 		C8C73C1A1BB72E8500958534 /* vibEDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C73C191BB72E8500958534 /* vibEDUITests.swift */; };
-		C8CEEF8D1BB734E600743DF5 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEEF8C1BB734E600743DF5 /* MainTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
-		C8CEEF8F1BB781DD00743DF5 /* VibeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEEF8E1BB781DD00743DF5 /* VibeViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C8CEEF911BB781FE00743DF5 /* HeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEEF901BB781FE00743DF5 /* HeatViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C8CEEF931BB7821400743DF5 /* NoiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEEF921BB7821400743DF5 /* NoiseViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C8CEEF951BB7822900743DF5 /* LightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEEF941BB7822900743DF5 /* LightViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C8CEEF8D1BB734E600743DF5 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEEF8C1BB734E600743DF5 /* MainTabBarController.swift */; };
+		C8CEEF8F1BB781DD00743DF5 /* VibeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEEF8E1BB781DD00743DF5 /* VibeViewController.swift */; };
+		C8CEEF911BB781FE00743DF5 /* HeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEEF901BB781FE00743DF5 /* HeatViewController.swift */; };
+		C8CEEF931BB7821400743DF5 /* NoiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEEF921BB7821400743DF5 /* NoiseViewController.swift */; };
+		C8CEEF951BB7822900743DF5 /* LightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CEEF941BB7822900743DF5 /* LightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -236,7 +236,7 @@
 				TargetAttributes = {
 					C8C73BF51BB72E8500958534 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = EP43PHQP2A;
+						DevelopmentTeam = 585SNYAD83;
 					};
 					C8C73C091BB72E8500958534 = {
 						CreatedOnToolsVersion = 7.0;
@@ -500,6 +500,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = vibED/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.vibED;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +516,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = vibED/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.wilsonding.vibED;
 				PRODUCT_NAME = "$(TARGET_NAME)";

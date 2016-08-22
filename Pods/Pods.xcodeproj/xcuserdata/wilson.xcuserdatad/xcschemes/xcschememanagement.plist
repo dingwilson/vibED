@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Charts.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-vibED.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>642B4133448E93A066A8F053762713B4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>792EE3C875913E7BB70A6DA8525194CF</key>
+		<key>8F7B8371F16C3C8DC5CC5DCA095D67B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
